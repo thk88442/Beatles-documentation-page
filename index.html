@@ -4,22 +4,22 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>JS Documentation</title>
+        <title>The Beatles</title>
         <link rel="stylesheet" href="style.css">
+        <link id="favicon" rel="icon" href="img/beatles.jpg" type="image/x-icon">
     </head>
     
     
     <body>
         <div class="main">
             <nav id="navbar">
-                <header>JS Documentation</header>
+                <header><img src="img/beatles.jpg"></header>
                 <ul>
-                    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
-                    <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
-                    <li><a class="nav-link" href="#JavaScript_and_Java">Javascript and Java</a></li>
-                    <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
-                    <li><a class="nav-link" href="#Variables">Variables</a></li>
-                    <li><a class="nav-link" href="#Declaring_variables">Declaring variables</a></li>
+                    <li><a class="nav-link" href="#Introduction"><p>Introduction</p></a></li>
+                    <li><a class="nav-link" href="#John-Lennon"><p>John Lennon</p></a></li>
+                    <li><a class="nav-link" href="#Paul-McCartney"><p>Paul McCartney</p></a></li>
+                    <li><a class="nav-link" href="#George-Harrison"><p>George Harrison</p></a></li>
+                    <li><a class="nav-link" href="#Ringo-Starr"><p>Ringo Starr</p></a></li>
                 </ul>
             </nav>
             
@@ -28,94 +28,62 @@
                 <section class="main-section" id="Introduction">
                     <header>Introduction</header>
                     <article id="article">
-                        <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
-                        <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:
-                        </p>
-                        <ul>
-                            <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li>
-                            <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
-                        </ul>
-                    </article>
-                </section>
-                
-                <section class="main-section" id="What_you_should_already_know">
-                    <header>What you should already know</header>
-                    <article>
-                        <p>This guide assumes you have the following basic background:</p>
-                        <ul>
-                            <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
-                            <li>Good working knowledge of HyperText Markup Language (HTML).</li>
-                            <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</li>
-                        </ul>
-                    </article>
-                </section>
-                
-                <section class="main-section" id="JavaScript_and_Java">
-                    <header>JavaScript and Java</header>
-                    <article>
-                        <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
-                        <p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.</p>
-                        <p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p>
-                    </article>
-                </section>
-                
-                <section class="main-section" id="Hello_world">
-                    <header>Hello world</header>
-                    <article>
-                        <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
-                        <code>function greetMe(yourName) {
-                          alert("Hello " + yourName);
-                        }
-                        greetMe("World");
-                        </code>
-                        <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
-                    </article>
-                </section>
-                
-                <section class="main-section" id="Variables">
-                    <header>Variables</header>
-                    <article>
-                        <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
-                        <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
-                        <p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
-                    </article>
-                </section>
-                
-                <section class="main-section" id="Declaring_variables">
-                    <header>Declaring variables</header>
-                    <article>
                         <p>
-                            With the keyword var. For example,
-                            <code>
-                            var x = 42.
-                            </code>
-                            This syntax can be used to declare both local and global variables.
-                        </p>
-                    
-                        <p>
-                            By simply assigning it a value. For example,
-                            <code>
-                            x = 42.
-                            </code>
-                            This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.
-                        </p>
-                        
-                        <p>
-                            With the keyword let. For example,
-                            <code>    
-                            let y = 13.
-                            </code>
-                            OR
-                            <code>
-                            let x = 15.
-                            </code>
-                            This syntax can be used to declare a block scope local variable. See Variable scope below.
+                        <div class="cover-albums">
+                            <img src="img/beatles-cover.jpg" id="beatles-cover">
+                            <img src="img/beatles-abbey-road.jpg" id="beatles-cover">
+                            <img src="img/beatles-revolver.jpg" id="beatles-cover">
+                            <img src="img/rubber-soul.jpg" id="beatles-cover">
+                        </div>
+                        <br>
+                            &nbsp&nbsp&nbsp&nbsp The Beatles were an English rock band formed in Liverpool in 1960. With members John Lennon, Paul McCartney, George Harrison and Ringo Starr, they became widely regarded as the foremost and most influential music band in history.[1] Rooted in skiffle, beat and 1950s rock and roll, the Beatles later experimented with several musical styles, ranging from pop ballads and Indian music to psychedelia and hard rock, often incorporating classical elements and unconventional recording techniques in innovative ways. In 1963, their enormous popularity first emerged as "Beatlemania"; as the group's music grew in sophistication, led by primary songwriters Lennon and McCartney, the band were integral to pop music's evolution into an art form and to the development of the counterculture of the 1960s.</p>
+                        <br>
+                        <p>&nbsp&nbsp&nbsp&nbsp The Beatles are the best-selling band in history, with estimated sales of over 800 million physical and digital albums worldwide. They have had more number-one albums on the British charts and sold more singles in the UK than any other act. They are also the best-selling music artists in the United States, with 178 million certified units. In 2008, the group topped Billboard magazine's list of the all-time most successful artists; as of 2017, they hold the record for most number-one hits on the Hot 100 chart with twenty. They have received seven Grammy Awards, an Academy Award for Best Original Song Score and fifteen Ivor Novello Awards. The group was inducted into the Rock and Roll Hall of Fame in 1988, and all four main members were inducted individually from 1994 to 2015. They were also collectively included in Time magazine's compilation of the twentieth century's 100 most influential people.
                         </p>
                     </article>
                 </section>
-            </main>        
+                
+                <section class="main-section" id="John-Lennon">
+                    <header>John Lennon</header>
+                    <article>
+                        <img src="img/john_lennon.jpg" id="beatles-member-photo">
+                        <p>&nbsp&nbsp&nbsp&nbsp John Winston Ono Lennon[a] MBE (9 October 1940 – 8 December 1980) was an English singer, songwriter, and peace activist who co-founded the Beatles,[2] the most commercially successful band in the history of popular music. He and fellow member Paul McCartney formed a much-celebrated songwriting partnership. Along with George Harrison and Ringo Starr, the group would ascend to worldwide fame during the 1960s.</p>
+                        <br>
+                        <p>&nbsp&nbsp&nbsp&nbsp He was born as John Winston Lennon in Liverpool, where he became involved in the skiffle craze as a teenager. In 1957, he formed his first band, the Quarrymen, which evolved into the Beatles in 1960. Lennon began to record as a solo artist before the band's break-up in April 1970; two of those songs were "Give Peace a Chance" and "Instant Karma!" Lennon subsequently produced albums that included John Lennon/Plastic Ono Band and Imagine, and songs such as "Working Class Hero", "Imagine" and "Happy Xmas (War Is Over)". After he married Yoko Ono in 1969, he added "Ono" as one of his middle names. Lennon disengaged himself from the music business in 1975 to raise his infant son Sean, but re-emerged with Ono in 1980 with the album Double Fantasy. He was shot and killed in the archway of his Manhattan apartment building three weeks after the album was released.</p>
+                    </article>
+                </section>
+                
+                <section class="main-section" id="Paul-McCartney">
+                    <header>Paul McCartney</header>
+                    <article>
+                        <img src="img/paul_mccartney.jpg" id="beatles-member-photo">
+                        <p>&nbsp&nbsp&nbsp&nbsp Sir James Paul McCartney CH MBE (born 18 June 1942) is an English singer-songwriter, multi-instrumentalist, and composer. He gained worldwide fame as the bass guitarist and singer for the rock band the Beatles, widely considered the most popular and influential group in the history of pop music. His songwriting partnership with John Lennon was the most successful of the post-war era.[2] After the group disbanded in 1970, he pursued a solo career and formed the band Wings with his first wife, Linda, and Denny Laine.</p>
+                        <br>
+                        <p>&nbsp&nbsp&nbsp&nbsp McCartney is one of the most successful composers and performers of all time. More than 2,200 artists have covered his Beatles song "Yesterday", making it one of the most covered songs in popular music history. Wings' 1977 release "Mull of Kintyre" is one of the all-time best-selling singles in the UK. A two-time inductee into the Rock and Roll Hall of Fame (as a member of the Beatles in 1988, and as a solo artist in 1999), and an 18-time Grammy Award winner, McCartney has written, or co-written, 32 songs that have reached number one on the Billboard Hot 100, and as of 2009 he had 25.5 million RIAA-certified units in the United States. McCartney, Lennon, George Harrison and Ringo Starr all received appointment as Members of the Order of the British Empire in 1965 and, in 1997, McCartney was knighted for services to music. McCartney is also one of the wealthiest musicians in the world, with an estimated net worth of US$1.2 billion.</p>
+                    </article>
+                </section>
+                
+                <section class="main-section" id="George-Harrison">
+                    <header>George Harrison</header>
+                    <article>
+                        <img src="img/george-harrison.png" id="beatles-member-photo">
+                        <p>&nbsp&nbsp&nbsp&nbsp George Harrison[nb 1] MBE (25 February 1943 – 29 November 2001) was an English guitarist, singer-songwriter, and producer who achieved international fame as the lead guitarist of the Beatles. Often referred to as "the quiet Beatle", Harrison embraced Indian culture and helped broaden the scope of popular music through his incorporation of Indian instrumentation and Hindu-aligned spirituality in the Beatles' work.[2] Although the majority of the band's songs were written by John Lennon and Paul McCartney, most Beatles albums from 1965 onwards contained at least two Harrison compositions. His songs for the group included "Taxman", "Within You Without You", "While My Guitar Gently Weeps", "Here Comes the Sun" and "Something", the last of which became the Beatles' second-most covered song.</p>
+                        <br>
+                        <p>&nbsp&nbsp&nbsp&nbsp Harrison's earliest musical influences included George Formby and Django Reinhardt; Carl Perkins, Chet Atkins and Chuck Berry were subsequent influences. By 1965, he had begun to lead the Beatles into folk rock through his interest in the Byrds and Bob Dylan, and towards Indian classical music through his use of the sitar on "Norwegian Wood (This Bird Has Flown)". Having initiated the band's embracing of Transcendental Meditation in 1967, he subsequently developed an association with the Hare Krishna movement. After the band's break-up in 1970, Harrison released the triple album All Things Must Pass, a critically acclaimed work that produced his most successful hit single, "My Sweet Lord", and introduced his signature sound as a solo artist, the slide guitar. He also organised the 1971 Concert for Bangladesh with Indian musician Ravi Shankar, a precursor for later benefit concerts such as Live Aid. In his role as a music and film producer, Harrison produced acts signed to the Beatles' Apple record label before founding Dark Horse Records in 1974 and co-founding HandMade Films in 1978.</p>
+                    </article>
+                </section>
+                
+                <section class="main-section" id="Ringo-Starr">
+                    <header>Ringo Starr</header>
+                    <article>
+                        <img src="img/ringo-starr.jpg" id="beatles-member-photo">
+                        <p>&nbsp&nbsp&nbsp&nbsp Sir Richard Starkey[2] MBE[3] (born 7 July 1940), known professionally as Ringo Starr, is an English musician, singer-songwriter and actor who gained worldwide fame as the drummer for the Beatles. He occasionally sang lead vocals, usually for one song on an album, including "With a Little Help from My Friends", "Yellow Submarine", "Good Night", and their cover of "Act Naturally". He also wrote the Beatles' songs "Don't Pass Me By" and "Octopus's Garden", and is credited as a co-writer of others, including "What Goes On" and "Flying".</p>
+                        <br>
+                        <p>&nbsp&nbsp&nbsp&nbsp Starr was afflicted by life-threatening illnesses during childhood, and he fell behind in school as a result of prolonged hospitalisations. He briefly held a position with British Rail before securing an apprenticeship at a Liverpool equipment manufacturer. Soon afterwards, he became interested in the UK skiffle craze and developed a fervent admiration for the genre. In 1957, he co-founded his first band, the Eddie Clayton Skiffle Group, which earned several prestigious local bookings before the fad succumbed to American rock and roll by early 1958. When the Beatles formed in 1960, Starr was a member of another Liverpool group, Rory Storm and the Hurricanes. After achieving moderate success in the UK and Hamburg, he quit the Hurricanes and joined the Beatles in August 1962, replacing Pete Best.</p>
+                    </article>
+                </section>
+                <footer>All information has been taken from Wikipedia</footer>   
+            </main>     
         </div>
-        
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 </html>
