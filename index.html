@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Beatles</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
         <link id="favicon" rel="icon" href="img/beatles.jpg" type="image/x-icon">
     </head>
     
@@ -14,12 +14,12 @@
         <div class="main">
             <nav id="navbar">
                 <header><img src="img/beatles.jpg"></header>
-                <ul>
-                    <li><a class="nav-link" href="#Introduction"><p>Introduction</p></a></li>
-                    <li><a class="nav-link" href="#John-Lennon"><p>John Lennon</p></a></li>
-                    <li><a class="nav-link" href="#Paul-McCartney"><p>Paul McCartney</p></a></li>
-                    <li><a class="nav-link" href="#George-Harrison"><p>George Harrison</p></a></li>
-                    <li><a class="nav-link" href="#Ringo-Starr"><p>Ringo Starr</p></a></li>
+                <ul class="nav">
+                    <li id="Intro"><a class="nav-link" href="#Introduction"><p>Introduction</p></a></li>
+                    <li id="Lennon"><a class="nav-link" href="#John-Lennon"><p>John Lennon</p></a></li>
+                    <li id="McCartney"><a class="nav-link" href="#Paul-McCartney"><p>Paul McCartney</p></a></li>
+                    <li id="Harrison"><a class="nav-link" href="#George-Harrison"><p>George Harrison</p></a></li>
+                    <li id="Starr"><a class="nav-link" href="#Ringo-Starr"><p>Ringo Starr</p></a></li>
                 </ul>
             </nav>
             
@@ -85,5 +85,15 @@
                 <footer>All information has been taken from Wikipedia</footer>   
             </main>     
         </div>
+
+        <!--Beatles Songs-->
+        <audio id="strawberyFields" src="songs/The Beatles - Strawberry Fields Forever.mp3"></audio>
+        <audio id="blackbird" src="songs/Blackbird (Remastered 2009).mp3">
+        </audio>
+        <audio id="hereComesTheSun" src="songs/Here Comes The Sun (Remastered 2009).mp3">
+        </audio>
+        <audio id="withALittleHelp" src="songs/With A Little Help From My Friends (Remastered 2009).mp3">
+        </audio>
+        <script src="jscript/script.js"></script>
     </body>
 </html>
